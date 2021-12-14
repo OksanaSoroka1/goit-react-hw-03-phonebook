@@ -1,0 +1,23 @@
+.list {
+  padding: 10px;
+  width: 500px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.text {
+  min-width: 250px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.number {
+  color: rgb(92, 171, 218);
+}
+.button {
+  width: 80px;
+}
